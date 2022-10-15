@@ -2,7 +2,11 @@
 using namespace std;
 int main()
 {
-    int ar[] = {1, 2, 3, 4, 5, 6}; // array
-    for (auto &it : ar)
-        cout << it << " "; // printing
+    int n;
+    cin >> n;
+    int array[n];
+    for(int i=0;i<n;i++){
+        cin>> array[i];
+    }
+    return 0;
 }
